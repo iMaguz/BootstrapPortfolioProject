@@ -9,9 +9,112 @@
 </head>
 <body>
 
+    <!-- Create the Navigation Bar -->
+
+    <nav class="navbar navbar-default">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#portfolio-collapse-menu">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">James A. Hansen</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="portfolio-collapse-menu">
+          <ul class="nav navbar-nav">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+          </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+      </div>
+      <!-- /.container-fluid -->
+    </nav>
+
+<!-- Create the Carousel -->
+
+    <div id="portfolio-carousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#portfolio-carousel" data-slide-to="0" class="active"></li>
+        <li data-target="#portfolio-carousel" data-slide-to="1"></li>
+        <li data-target="#portfolio-carousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <div class="container">
+            <div class="carousel-caption">
+                <h3>James A. Hansen</h3>
+              <p>Hi, my name is James and I love to write code that is efficient.</p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="container">
+            <div class="carousel-caption">
+                <h3>What I do</h3>
+              <p>Here are some of the languages I use on a day-to-day: HTML, CSS, and JavaScript</p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="container">
+            <div class="carousel-caption">
+                <h3>Get in touch</h3>
+                <p>I live in the cloud and can't be seen. Send messages to the good people at <a target="_blank" href="https://twitter.com/codeschool">Code School</a> and they'll notify me.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="left carousel-control" href="#portfolio-carousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#portfolio-carousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+<!-- Create the Marketing Columns -->
+
+<div class="marketing">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <span class="glyphicon glyphicon-cloud"></span>
+                <h2>HTML and CSS</h2>
+                <p>The world around us has become quite cluttered and the web is no exception. Ads, banners, icons, badges, signs, pop-ups, buttons, and so on – sometimes it can all get a bit heavy. So why not give your site visitors a break from all the noise and clutter? Embracing things like flat design and white space (you can read more about both these terms here) can do wonders for your site visitor’s experience. Try to keep everything simplistic or even minimal with only your most important content spotlighted. Sometimes less really is more.</p>
+            </div>
+            <div class="col-md-4">
+                <span class="glyphicon glyphicon-tree-conifer"></span>
+                <h2>Design</h2>
+                <p>Make some mental or actual notes on what you would like to emulate on your own site. Do you think a long scrolling page would work well with your site? Maybe you really admire someone elses approach to their contact page. It can be something as small as imitating a use of an arrow icon that points to an important message. Whatever it is you find appealing, think about how you can make it happen in your own website’s design scheme.</p>
+            </div>
+            <div class="col-md-4">
+                <span class="glyphicon glyphicon-road"></span>
+                <h2>Bootstrap</h2>
+                <p>Visual hierarchy, what’s that again? It’s a term that basically means our eyes pay attention to web space in a certain pattern – a pattern that can help you optimize important content on your site. For example, if you create a ‘sign up now’ button, you likely want as many people as possible to click it and follow-through with the sign-up process. Visual hierarchy tells us that the eyes move top to bottom, left to right. This means you’ll get the most eyes on your button in the top left corner of your site, and those eyes could very well mean more clicks. Remember, only put your most important content in these coveted spaces – if you put too much in one spot your visitor will be overwhelmed and you won’t get the result you’re aiming for.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Create the Footer -->
+<footer>
+    <div class="container">
+        <h3>Get in touch</h3>
+        <p>I live in the cloud and can't be seen. Send messages to the good people at <a target="_blank" href="https://twitter.com/codeschool">Code School</a> and they'll notify me.</p>
+    </div>
+</footer>
+
   <!--
     Previous project placeholder begins
-  -->
   <div class="header">
     <h1>Morgan McCircuit</h1>
     <h2>I write code</h2>
@@ -37,7 +140,7 @@
     <h3>Get in touch</h3>
     <p>I live in the cloud and can't be seen. Send messages to the good people at <a target="_blank" href="https://twitter.com/codeschool">Code School</a> and they'll notify me.</p>
   </div>
-  <!--
+
     Previous project placeholder ends
     (unused pieces will be deleted at the last task)
   -->
